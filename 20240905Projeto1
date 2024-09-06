@@ -1,0 +1,29 @@
+package uscs;
+public class Carros {
+    //Atributos
+    String marca;
+    String modelo;
+    int ano;
+    //Métodos
+    public Carros(){
+    }
+    public Carros(String marca, String modelo, int ano){
+        this.marca = marca;
+        this.modelo= modelo;
+        this.ano = ano;
+    }
+    public void imprimirCarros (){
+        System.out.println("Marca:" + marca);
+        System.out.println("Modelo:" + modelo);
+        System.out.println("Ano:" + ano);
+    }
+    public void frear(){
+        System.out.println("Carro Freando !!!!!");
+    }
+    public void acelerar(){
+        System.out.println("Carro Acelerando!!");
+    }
+    public void ligar(){
+        System.out.println("Carro Ligando !!!!");
+    }
+}
